@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>The Marketplace App</title>
+    <title>Marketplace App</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@
             padding: 20px;
             text-align: center;
         }
-        section {  
+        #products {  
             margin-top: 20px;
             margin-bottom: 20px;
             background-color: #fff;
@@ -28,11 +28,13 @@
             text-align: center;
         }
         .product {
-            /*how to ccnter each product by adding margin to the left and right*/
+            margin-left: auto;
+            margin-right: auto;
             padding: 10px;
             max-width: 600px;
             border: 1px solid #ddd;
             border-radius: 5px;
+            margin-top: 20px;
         }
         img {
             max-width: 100%;
@@ -57,13 +59,22 @@
             padding: 10px;
             border-radius: 5px;
             text-align: center;
-        }
+        }   
+        /*
+        .footer {
+            margin-top: 10px;
+            background-color: #000000;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        } */
     </style>
   </head>
   <body>
     <!-- Your content goes here -->
     <header>
-        <h1>Marketplace App</h1>
+        <h1>The Marketplace App</h1>
      <p>Welcome to the Marketplace App!
         We are your one-stop shop for all things marketplace.
         Whether you are looking to buy or sell, we have you covered.
@@ -86,7 +97,7 @@
                     <li>Rating: 4.5/5</li>
                 </ul>
                 <div class="email-field">
-                    <label for="email">Email: test@test-com</label>
+                    <label for="email">Email: test@test.com</label>
                 </div>
                 <button type="button">Buy Now</button>
             </div>
@@ -100,13 +111,17 @@
                     <li>Rating 4.0/5</li>
                 </ul>
                 <div class="email-field">
-                    <label for="email">Email: test@test-com</label>
+                    <label for="email">Email: test@test.com</label>
                 </div>
                 <button type="button">Buy Now</button>
             </div>
         </section>
     </main>
-    <!--changed footer from class to tag-->
+    <!--changed footer from class to tag
+    <div class="footer">
+        <p>&copy; LEXICON Växjö 2024</p> 
+    </div>
+    -->
     <footer>
         <p>&copy; LEXICON Växjö 2024</p>
     </footer>
